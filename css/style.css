@@ -64,17 +64,17 @@ header{
 
 /* seconda sezione */
 
-.container-two{
+.container-w{
     background-color: white;
 }
 
-.section-two-left{
+.section-w-left{
     flex-basis: 60%;
     background-color: #1e90ff;
     height: 380px;
 }
 
-.section-two-right{
+.section-w-right{
     flex-basis: 40%;
     background-color: #ffc0cb;
     height: 380px;
@@ -82,18 +82,50 @@ header{
 
 /* terza sezione */
 
-.container-three{
+.container-g{
     background-color: #d3d3d3;
 }
 
-.section-three-left{
+.section-g-left{
     flex-basis: 60%;
     background-color: #1e90ff;
     height: 380px;
 }
 
-.section-three-right{
+.section-g-right{
     flex-basis: 40%;
     background-color: #ffc0cb;
     height: 380px;
+}
+
+/* ultima sezione */
+
+.section-last{
+    flex-basis: 100%;
+    background-color: #228b22;
+    height: 600px;
+}
+
+/* footer */
+
+.container-b{
+    background-color: #23272a;
+}
+
+.section-b-left{
+    flex-basis: 40%;
+    background-color: #f08080;
+    height: 380px;
+}
+
+.section-b-right{
+    flex-basis: 60%;
+    background-color: #20b2aa;
+    height: 380px;
+    display: flex;
+}
+
+.colum{
+    flex-basis: 25%;
+    border: 2px dashed black;
 }
