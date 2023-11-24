@@ -79,3 +79,21 @@ header{
     background-color: #ffc0cb;
     height: 380px;
 }
+
+/* terza sezione */
+
+.container-three{
+    background-color: #d3d3d3;
+}
+
+.section-three-left{
+    flex-basis: 60%;
+    background-color: #1e90ff;
+    height: 380px;
+}
+
+.section-three-right{
+    flex-basis: 40%;
+    background-color: #ffc0cb;
+    height: 380px;
+}
