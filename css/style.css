@@ -129,3 +129,33 @@ header{
     flex-basis: 25%;
     border: 2px dashed black;
 }
+
+/* bottoni finali */
+
+.bottom{
+    margin-top: 2px;
+    background-color: #23272a;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    padding: 0 150px;
+}
+
+.footer-left{
+    background-color: #7fffd4;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-logo{
+    border: 2px dashed black;
+    padding: var(--space) ;
+    background-color: #ffb6c1;
+}
+
+.left-bottom{
+    border: 2px dashed black;
+    padding: var(--space) ;
+    background-color: #ffb6c1;
+}
