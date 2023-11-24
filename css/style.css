@@ -51,12 +51,31 @@ header{
     border: 2px dashed black; 
 }
 
+/* prima sezione */
 .container-one{
     background-color: #00008b;
 }
 
 .section-one{
-    flex-basis: 900px;
+    flex-basis: 80%;
     background-color: #ee82ee;
+    height: 380px;
+}
+
+/* seconda sezione */
+
+.container-two{
+    background-color: white;
+}
+
+.section-two-left{
+    flex-basis: 60%;
+    background-color: #1e90ff;
+    height: 380px;
+}
+
+.section-two-right{
+    flex-basis: 40%;
+    background-color: #ffc0cb;
     height: 380px;
 }
