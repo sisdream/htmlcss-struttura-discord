@@ -7,10 +7,10 @@
 :root{
     --space: 10px;
 }
+/* header runner */
 
 header{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color:#add8e6;
     min-height: 100px;
@@ -19,21 +19,44 @@ header{
 
 .left{
     flex-grow: 1;
-    border: 1px dashed black;
+    border: 2px dashed black;
     background-color: #daa520;
     padding: var(--space) 0;
 }
 
 .center{
     flex-grow: 5;
-    border: 1px dashed black;
+    border: 2px dashed black;
     background-color: #daa520;
     padding: var(--space) 0;
 }
 
 .right{
     flex-grow: 1;
-    border: 1px dashed black;
+    border: 2px dashed black;
     background-color: #daa520;
     padding: var(--space) 0;
+}
+
+/* container and sections */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 150px;
+}
+
+.section{
+    border: 2px dashed black; 
+}
+
+.container-one{
+    background-color: #00008b;
+}
+
+.section-one{
+    flex-basis: 900px;
+    background-color: #ee82ee;
+    height: 380px;
 }
