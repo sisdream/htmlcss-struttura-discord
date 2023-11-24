@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --space: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#add8e6;
+    min-height: 100px;
+    padding: 0 150px;
+}
+
+.left{
+    flex-grow: 1;
+    border: 1px dashed black;
+    background-color: #daa520;
+    padding: var(--space) 0;
+}
+
+.center{
+    flex-grow: 5;
+    border: 1px dashed black;
+    background-color: #daa520;
+    padding: var(--space) 0;
+}
+
+.right{
+    flex-grow: 1;
+    border: 1px dashed black;
+    background-color: #daa520;
+    padding: var(--space) 0;
+}
