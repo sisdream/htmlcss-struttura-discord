@@ -29,6 +29,7 @@ header{
     border: 2px dashed black;
     background-color: #daa520;
     padding: var(--space) 0;
+    text-align: center;
 }
 
 .right{
@@ -36,6 +37,7 @@ header{
     border: 2px dashed black;
     background-color: #daa520;
     padding: var(--space) 0;
+    text-align: end;
 }
 
 /* container and sections */
